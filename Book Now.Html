@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Book Now</title>
+  </head>
+  <body>
+    <h2>Sign up</h2>
+      <fieldset>
+        <legend>Create Username And Password</legend>
+        <form class="" action="mailto:ebtech.ng@gmail.com" method="post" enctype="text/plain">
+          <li>
+            <label for="title">
+            <input type="radio" id="title" name="title" value="Mr">
+            Mr
+            </label>
+          </li>
+          <li>
+            <label for="title">
+              <input type="radio"id="title_1" name="title_1" value="Miss">
+              Ms
+            </label>
+          </li>
+          <br>
+          <label for="">Username</label>
+          <input type="text" name="Name" value=""><br>
+          <br>
+          <label for="">Password</label>
+          <input type="Password" name="" value=""><br>
+          <br>
+          <label for="">Retype Password</label>
+          <input type="password" name="" value=""><br>
+          <br>
+          <input type="checkbox"   /> I agree and understand the terms and conditions
+          <br>
+          <input type="submit" name="">
+
+        </form>
+      </fieldset>
+
+    <hr>
+    <h2>Book Now</h2>
+    <form class="" action="mailto:ebtech.ng@gmail.com" method="post" enctype="text/plain">
+      <input type="text" name="" value=""><br>
+      <br>
+      <input type="file" name="" value=""><br>
+      <br>
+      <input type="date" name="" value=""><br>
+      <br>
+      <input type="radio" name="" value=""><br>
+      <br>
+      <input type="range" name="" value=""><br>
+      <br>
+      <input type="submit" name=""><br>
+
+    </form>
+    <hr>
+    <fieldset>
+      <legend><h2>Payment details</h2></legend>
+      <label for="card">
+        <span>card type;</span>
+      </label>
+      <select class="card" name="Usercard">
+        <option value="Visa">Visa</option>
+        <option value="mc">Mastercard</option>
+        <option value="paypal">paypal</option>
+      </select>
+      <br>
+      <br>
+      <label for="Number">
+        <span>card Number;</span>
+        <strong><abbr title="required">*</abbr></strong>
+      </label>
+      <input type="tel" id="Number" name="cardnumber" value="">
+      <br>
+      <br>
+      <label for="expiration">
+        <span>expiration date;</span>
+        <strong><abbr title="required">*</abbr></strong>
+      </label>
+      <input type="text" id="expiration" required="true" name="" value="" placeholder="MM/YY" pattern="^(0[1-9]|1[0-2])\/([0-9]{2})$">
+      <br>
+      <br>
+      <button type="submit" >validate Payment</button>
+    </fieldset>
+
+
+    <hr>
+  </body>
+</html>
